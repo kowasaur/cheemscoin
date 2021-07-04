@@ -57,9 +57,8 @@ export const NavBar: React.FC = ({}) => (
             </Icon>
           }
         />
-        {/* TODO: Change back */}
         <NavLink href={buyLink}>Buy</NavLink>
-        <NavLink href="/locks">Locks</NavLink>
+        <NavLink href="/farm">Farm</NavLink>
       </Box>
       <Box>
         <IconLink
